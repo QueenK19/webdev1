@@ -1,0 +1,11 @@
+h1{
+    color: blue;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aquamarine;
+}
+body{
+    max-width: 25rem;
+    margin: 0 auto;
+}
