@@ -1,11 +1,15 @@
 h1{
     color: blue;
+    font-family: cursive;
+    font-size: xx-large;
 }
 p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: aquamarine;
+    font-family: fantasy;
+    color: rgb(64, 7, 93);
+    font-size: large;
 }
 body{
     max-width: 25rem;
     margin: 0 auto;
+    background-color: bisque;
 }
