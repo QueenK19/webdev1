@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;500&family=Noto+Serif+TC:wght@200&display=swap');
+
+:root{
+  --color-body-text: #631615;
+  --color-body-bg: #fffef5;
+  --color-links: #131313;
+  --color-header-footer-bg: #f7ca8a;
+  --padding-header-footer: 3rem;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+}
+
+body{
+ 
+  font-family: 'Noto Serif TC', serif;
+  background-color: var(--color-body-bg);
+  color: var(--color-body-text);
+
+}
+h1, h2{
+  font-family: 'Noto Sans SC', sans-serif;
+}
+h1{
+  font-size: 3rem;
+   margin: 1rem 0;
+}
+h2{
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+a{
+  color: var(--color-links)
+}
+a: hover{
+  color: white;
+}
+p{
+  line-height:1.8;
+}
+section{
+   padding-top: 1rem;
+}
+section p{
+   margin: 2rem 0;
+}
+img{
+  width:100%;
+  display: block;
+}
+header{
+  background-color: var(--color-header-footer-bg);
+  padding: var(--padding-header-footer);
+  margin-bootom:5rem;
+}
+nav{
+  margin-top: 1rem;
+}
+nav a{
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+section{
+  margin-bottom: 5rem;
+}
+footer{ 
+  text-align: center;
+    background-color: var(--color-header-footer-bg);
+   padding: var(--padding-header-footer);
+}
+/* utility class */
+.center{
+  max-width: 30rem;
+  margin: 0 auto;
+}
