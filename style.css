@@ -3,13 +3,29 @@ h1{
     font-family: cursive;
     font-size: xx-large;
 }
+h2{
+    color: blue;
+    font-family: cursive;
+    font-size: xx-large;
+}
 p{
     font-family: fantasy;
     color: rgb(64, 7, 93);
-    font-size: large;
+    font-size: medium;
 }
 body{
     max-width: 25rem;
     margin: 0 auto;
     background-color: bisque;
+    max-width: 100%;
+    padding: 1rem;
 }
+nav a{
+    color: rgb(64, 7, 93);;
+    margin: auto, 0;
+    gap: 3rem;
+    padding: 1rem;
+}
+nav a:hover{
+    color: tomato;
+  }
