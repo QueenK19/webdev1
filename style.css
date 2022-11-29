@@ -19,6 +19,7 @@ body{
     background-color: bisque;
     max-width: 100%;
     padding: 1rem;
+    background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
 }
 nav a{
     color: rgb(64, 7, 93);;
@@ -28,4 +29,7 @@ nav a{
 }
 nav a:hover{
     color: tomato;
+  }
+  html {
+    scroll-behavior: smooth;
   }
