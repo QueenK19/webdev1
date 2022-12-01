@@ -1,0 +1,74 @@
+@import url ('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+font-family: "Silkscreen", cursive; 
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  
+}
+
+nav a {
+  color: black;
+}
+nav a:hover {
+  color: purple;
+}
+h1 {
+  color: red;
+  border box color: pink;
+  text-align: center;
+  font-size: 3rem;
+  font-family: times new roman
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.box {
+  background-color: lightblue;
+  padding: 2em;
+  border: 5px solid black;
+  position: absolute;
+  top: 1000px;
+  right: 0;
+  z-index: 999;
+  max-width: 100%;
+}
+
+.banner {
+  background-color: red;
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+  border: 10px solid black;
+  position: down;
+  top: 0;
+  z-index: 5;
+}
+
+body {
+  background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+   font-family: "Silkscreen", cursive;
+}
+
+marquee {
+  color: black;
+  font-family: cursive;
+  position: center;
+  top: 0;
+  left: 0;
+  font-size: 5rem;
+  font-style: italic;
+  background: darkred;
+  max-width: 100%
+}
+footer {
+  text-align: center;
+}
+p {
+  color: purple;
+  padding: 2rem;
+  font-size: 2rem
+}
+
