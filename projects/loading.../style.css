@@ -1,0 +1,36 @@
+*{
+    margin:0;
+      padding:0;
+      box-sizing: border-box;
+  }
+  p{
+    font-family: cursive;
+    color: #9100E6; 
+    margin: 2rem;
+  }
+  body{
+    background-color: black;
+  }
+  .box{
+    width:100px;
+    height: 100px;
+    background-color: pink;
+    margin: 5rem;
+    
+    animation-name: grow-width-height;
+    animation-duration: 4s;
+      animation-delay: 5s;
+    animation-iteration-count: infinite;
+    
+   animation-direction: alternate;
+  }
+  @keyframes grow-width-height{
+    from{
+       width:100px;
+    height: 100px;
+    }
+    to{
+      width: 500px;
+        height: 500px;
+    }
+  }
