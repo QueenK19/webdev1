@@ -1,0 +1,21 @@
+h1{
+    font-family: cursive;
+    font-size: x-large;
+    color: lavenderblush;
+    margin: 5rem;
+    padding: 0%;
+    width: 100%;
+}
+h2{
+    font-family: cursive;
+    font-size: x-large;
+    color: burlywood;
+}
+p{
+    font-family: fantasy;
+    font-size: medium;
+    color: aliceblue;
+}
+body{
+    background-color: indigo;
+}
