@@ -31,3 +31,11 @@ nav a:hover{
   html {
     scroll-behavior: smooth;
   }
+img{
+    max-width: 50%;
+    display: block;
+    margin: 3rem, 0;
+}
+#myBtn:hover {
+    background-color: #555; 
+  }
