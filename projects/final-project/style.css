@@ -17,16 +17,17 @@ p{
     color: aliceblue;
 }
 body{
-    background-color: indigo;
+    background-color: rgb(140, 127, 148);
 }
 nav a{
-    color: rgb(151, 35, 97);;
+   color: antiquewhite;
     margin: auto, 0;
     gap: 3rem;
     padding: 1rem;
 }
 nav a:hover{
-    color: rgb(65, 166, 24);
+    background-color: aliceblue;
+    color: black;
   }
   html {
     scroll-behavior: smooth;
@@ -37,5 +38,14 @@ img{
     margin: 3rem, 0;
 }
 #myBtn:hover {
-    background-color: #555; 
+    color: rgb(101, 142, 170); 
+    margin: 3rem;
+    padding: 3rem;
+    justify-self: end;
   }
+  #myBtn{
+    color: aqua;
+  }
+  footer{
+    color: aqua;
+ 
